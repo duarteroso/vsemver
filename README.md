@@ -4,6 +4,9 @@
 Semantic version module written for the V language.
 The specification followed can be found [here](https://semver.org/)
 
+### Install
+`v install duarteroso.vsemver`
+
 ### Usage
 ```v
 v := SemVer{
