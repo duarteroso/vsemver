@@ -2,7 +2,7 @@
 
 Module {
 	name: 'vsemver',
-	version: '0.0.1'
+	version: '0.1.29'
 	author: 'Duarte Roso <duarte.roso@posteo.eu>'
 	vcs: 'git'
 	repo_url: 'bitbucket.org:rosod/semver'

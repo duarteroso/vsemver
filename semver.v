@@ -9,11 +9,11 @@ pub enum Stage {
 
 pub struct SemVer {
 pub mut:
-	major int = 0
-	minor int = 1
-	patch int = 0
-	stage Stage = .release
-	build string = ''
+	major int
+	minor int
+	patch int
+	stage Stage
+	build string
 }
 
 // Initialise
