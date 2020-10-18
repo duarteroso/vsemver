@@ -21,7 +21,7 @@ fn init() {
 }
 
 // Constructor
-pub fn create_semver(major, minor, patch int) SemVer {
+pub fn create_semver(major int, minor int, patch int) SemVer {
 	return SemVer{
 		major: major
 		minor: minor
