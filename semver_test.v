@@ -4,14 +4,14 @@ fn test_semver_default() {
 	a := SemVer{}
 	b := SemVer{
 		major: 0
-		minor: 1
+		minor: 0
 		patch: 0
 	}
 	assert a.is_equal(b)
 	//
 	c := SemVer{
 		major: 0
-		minor: 0
+		minor: 1
 		patch: 0
 	}
 	assert !a.is_equal(c)
